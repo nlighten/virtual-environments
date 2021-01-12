@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash
 ################################################################################
 ##  File:  git.sh
 ##  Desc:  Installs Git
@@ -33,4 +33,5 @@ mv "$tmp_hub"/bin/hub /usr/local/bin
 ssh-keyscan -t rsa github.com >> /etc/ssh/ssh_known_hosts
 ssh-keyscan -t rsa ssh.dev.azure.com >> /etc/ssh/ssh_known_hosts
 
-#invoke_tests "Tools" "Git"
+invoke_tests "Tools" "Git"
+echo "done ..."
