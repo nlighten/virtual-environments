@@ -3,6 +3,7 @@
 ##  File:  git.sh
 ##  Desc:  Installs Git
 ################################################################################
+set -xv
 
 # Source the helpers for use with the script
 source $HELPER_SCRIPTS/install.sh
