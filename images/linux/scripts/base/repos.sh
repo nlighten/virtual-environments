@@ -20,3 +20,5 @@ mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 # update
 apt-get -yq update
 apt-get -yq dist-upgrade
+apt-get remove -y python-is-python3
+apt-get install -y python-is-python2
